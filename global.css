@@ -5,10 +5,10 @@
 @import "nativewind/theme";
 
 @theme {
-    --color-background: #f8fafc;
-    --color-card: #ffffff;
-    --color-foreground: #0f172a;
-    --color-muted: #64748b;
-    --color-border: #e2e8f0;
-    --color-primary: #2563eb;
-  }
+  --color-background: #f8fafc;
+  --color-card: #ffffff;
+  --color-foreground: #0f172a;
+  --color-muted: #64748b;
+  --color-border: #e2e8f0;
+  --color-primary: #2563eb;
+}
