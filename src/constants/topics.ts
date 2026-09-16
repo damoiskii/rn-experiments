@@ -1,4 +1,5 @@
 import { Topic } from "../../types/topic";
+import { Wind } from "lucide-react-native";
 
 export const TOPICS: Topic[] = [
     {
@@ -6,6 +7,8 @@ export const TOPICS: Topic[] = [
         title: 'NativeWind & Dark Mode',
         subtitle: 'Learn how to use NativeWind',
         link: '/nativewind',
-        bgColor: 'bg-gradient-to-r from-purple-500 to-pink-500',
-    }
+        bgColor: 'bg-orange-200',
+        icon: Wind
+    },
+    
 ];

@@ -4,4 +4,5 @@ export type Topic = {
   subtitle: string;
   link: string;
   bgColor: string;
+  icon: React.ComponentType<any>;
 };
