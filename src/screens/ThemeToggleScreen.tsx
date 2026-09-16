@@ -1,4 +1,5 @@
 import { ThemeProvider } from "@/components/ThemeProvider";
+import Button from "@/components/ui/Button";
 import {
     Appearance,
     Pressable,
@@ -37,6 +38,12 @@ const ThemeToggleScreen = () => {
         </Text>
 
         <View className='absolute bottom-0 left-[-100] w-50 h-50 bg-cyan-200 dark:bg-purple-200 rounded-full opacity-20' />
+
+        <View className='mt-8'>
+          <Button onPress={toggleTheme} variant='primary' size='md'>
+            <Text>Toggle Theme</Text>
+          </Button>
+        </View>
       </View>
     </ThemeProvider>
   );
