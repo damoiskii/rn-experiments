@@ -26,7 +26,7 @@ const HomeScreen = () => {
         renderItem={renderItem}
         keyExtractor={(item) => item.id}
         numColumns={2}
-        columnWrapperStyle={{ justifyContent: "space-around", gap: 20 }}
+        columnWrapperStyle={{ justifyContent: "space-between", gap: 10, marginBottom: 10 }}
       />
     </View>
   );

@@ -5,10 +5,26 @@
 @import "nativewind/theme";
 
 @theme {
-  --color-background: #f8fafc;
-  --color-card: #ffffff;
+  /* Brand */
+  --color-primary: #2563eb;
+  --color-secondary: #64748b;
+  --color-danger: #dc2626;
+
+  /* Surfaces */
+  --color-background: #ffffff;
+  --color-surface: #f8fafc;
+
+  /* Text */
   --color-foreground: #0f172a;
   --color-muted: #64748b;
-  --color-border: #e2e8f0;
-  --color-primary: #2563eb;
+}
+
+/* Reusable design utilities */
+
+@utility card {
+  @apply rounded-2xl bg-surface p-4;
+}
+
+@utility pill {
+  @apply rounded-full px-4 py-2;
 }
