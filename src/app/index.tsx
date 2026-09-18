@@ -1,18 +1,13 @@
-import { Text, View, StyleSheet } from "react-native";
+import HomeScreen from "@/screens/HomeScreen";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Index() {
   return (
-    <View style={styles.container}>
-      <Text>Edit src/app/index.tsx to edit this screen.</Text>
-      <Text className="text-lg font-bold">Nativewind is working!</Text>
-    </View>
+    <SafeAreaView
+      className='flex-1 items-center justify-center bg-white'
+      edges={["top", "left", "right"]}
+    >
+      <HomeScreen />
+    </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
