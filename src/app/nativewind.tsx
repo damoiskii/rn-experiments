@@ -1,7 +1,7 @@
-import ThemeToggleScreen from '@/screens/ThemeToggleScreen';
+import ThemeToggleScreen from "@/screens/ThemeToggleScreen";
 import { View } from "react-native";
 
-const ThemeToggle = () => {
+const nativewind = () => {
   return (
     <View className='flex-1 items-center justify-center'>
       <ThemeToggleScreen />
@@ -9,4 +9,4 @@ const ThemeToggle = () => {
   );
 };
 
-export default ThemeToggle;
+export default nativewind;
