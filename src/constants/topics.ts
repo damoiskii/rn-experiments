@@ -1,5 +1,5 @@
 import { Topic } from "../../types/topic";
-import { Wind, EyeDashed, Waypoints } from "lucide-react-native";
+import { Wind, EyeDashed, Waypoints, Hand } from "lucide-react-native";
 
 export const TOPICS: Topic[] = [
     {
@@ -25,5 +25,13 @@ export const TOPICS: Topic[] = [
         link: '/animated',
         bgColor: 'bg-blue-200',
         icon: Waypoints
+    },
+    {
+        id: 'gestures',
+        title: 'Gestures',
+        subtitle: 'Learn how to use Gestures',
+        link: '/gestures',
+        bgColor: 'bg-green-200',
+        icon: Hand
     }
 ];

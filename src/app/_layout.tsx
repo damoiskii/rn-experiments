@@ -4,7 +4,7 @@ import { Stack } from "expo-router";
 
 export default function RootLayout() {
   return (
-    <Stack screenOptions={{ headerShown: false }} initialRouteName='animated'>
+    <Stack screenOptions={{ headerShown: false }} initialRouteName='gestures'>
       <Stack.Screen name='index' />
       <Stack.Screen name='nativewind' />
       <Stack.Screen name='blurs' />
