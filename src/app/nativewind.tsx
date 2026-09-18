@@ -1,4 +1,4 @@
-import ThemeToggleScreen from '@/screens/ThemeToggleScreen';
+import ThemeToggleScreen from "@/screens/ThemeToggleScreen";
 import { View } from "react-native";
 
 const nativewind = () => {

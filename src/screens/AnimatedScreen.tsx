@@ -2,6 +2,8 @@ import FadeInBox from "@/components/ui/FadeInBox";
 import FadeInView from "@/components/ui/FadeInView";
 import FadeOutBox from "@/components/ui/FadeOutBox";
 import GlowCard from "@/components/ui/GlowCard";
+import MotionBox from "@/components/ui/MotionBox";
+import MotionBox2 from "@/components/ui/MotionBox2";
 import SequenceMotions from "@/components/ui/SequenceMotions";
 import SpinBox from "@/components/ui/SpinBox";
 import SpringInBox from "@/components/ui/SpringInBox";
@@ -33,6 +35,8 @@ const AnimatedScreen = () => {
 
       <View className='flex-column w-full items-center justify-start gap-3 mt-5 mb-5'>
         <Text className='text-xl font-bold'>Motion (Spring)</Text>
+        <MotionBox />
+        <MotionBox2 />
         <SpringInBox />
         <SpinBox />
 
