@@ -3,8 +3,9 @@ import { SafeAreaView } from "react-native-safe-area-context";
 const gestures = () => {
   return (
     <SafeAreaView
-      className='flex-1 items-center justify-center'
+      className='items-center justify-center'
       edges={["top", "left", "right"]}
+      style={{ flex: 1 }}
     >
       <GestureHandlerScreen />
     </SafeAreaView>
